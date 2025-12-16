@@ -27,7 +27,7 @@ export function MonthlyChart({ data }: MonthlyChartProps) {
   const { resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [showLabels, setShowLabels] = useState(false);
-  const [viewMode, setViewMode] = useState<ViewMode>('monthly');
+  const [viewMode, setViewMode] = useState<ViewMode>('yearly');
 
   useEffect(() => {
     setMounted(true);
