@@ -36,14 +36,38 @@ export function Sidebar() {
         isCollapsed ? 'w-16' : 'w-64'
       )}
     >
-      {/* Logo */}
+      {/* Header with Logo and Collapse Toggle */}
       <div className={cn(
         'flex h-16 items-center border-b border-border',
-        isCollapsed ? 'justify-center px-2' : 'gap-2 px-6'
+        isCollapsed ? 'justify-center px-2' : 'justify-between px-4'
       )}>
-        <FileText className="h-6 w-6 text-primary flex-shrink-0" />
-        {!isCollapsed && <span className="text-lg font-semibold">Contracts</span>}
+        <div className={cn('flex items-center', isCollapsed ? '' : 'gap-2')}>
+          <FileText className="h-6 w-6 text-primary flex-shrink-0" />
+          {!isCollapsed && <span className="text-lg font-semibold">Contracts</span>}
+        </div>
+        {!isCollapsed && (
+          <button
+            onClick={toggleSidebar}
+            className="flex items-center justify-center rounded-md p-1.5 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+            title="Collapse sidebar"
+          >
+            <PanelLeftClose className="h-4 w-4" />
+          </button>
+        )}
       </div>
+
+      {/* Expand button when collapsed */}
+      {isCollapsed && (
+        <div className="p-2">
+          <button
+            onClick={toggleSidebar}
+            className="flex w-full items-center justify-center rounded-lg p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
+            title="Expand sidebar"
+          >
+            <PanelLeft className="h-4 w-4" />
+          </button>
+        </div>
+      )}
 
       {/* Navigation */}
       <nav className={cn('flex-1 space-y-1', isCollapsed ? 'p-2' : 'p-4')}>
@@ -69,9 +93,8 @@ export function Sidebar() {
         })}
       </nav>
 
-      {/* Bottom section */}
+      {/* Bottom section - Theme Toggle */}
       <div className="border-t border-border p-2">
-        {/* Theme Toggle */}
         <div className={cn(
           'flex items-center rounded-lg p-2',
           isCollapsed ? 'justify-center' : 'justify-between'
@@ -79,23 +102,6 @@ export function Sidebar() {
           {!isCollapsed && <span className="text-sm text-muted-foreground">Theme</span>}
           <ThemeToggle />
         </div>
-
-        {/* Collapse Toggle */}
-        <button
-          onClick={toggleSidebar}
-          className={cn(
-            'flex w-full items-center rounded-lg p-2 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground',
-            isCollapsed ? 'justify-center' : 'justify-between'
-          )}
-          title={isCollapsed ? 'Expand sidebar' : 'Collapse sidebar'}
-        >
-          {!isCollapsed && <span>Collapse</span>}
-          {isCollapsed ? (
-            <PanelLeft className="h-4 w-4" />
-          ) : (
-            <PanelLeftClose className="h-4 w-4" />
-          )}
-        </button>
       </div>
     </aside>
   );
