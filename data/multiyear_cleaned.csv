@@ -1,0 +1,95 @@
+Company,Payment_Date,Amount,Year,Month
+STIWA AMS GmbH,2021-08,28928.00,2021,August
+STIWA AMS GmbH,2023-08,28928.00,2023,August
+STIWA AMS GmbH,2024-08,6355.53,2024,August
+STIWA AMS GmbH,2025-08,3367.68,2025,August
+Trend Micro Inc.,2021-01,595976.00,2021,January
+Trend Micro Inc.,2022-02,264816.00,2022,February
+Trend Micro Inc.,2023-02,264816.00,2023,February
+Trend Micro Inc.,2024-02,264816.00,2024,February
+Trend Micro Inc.,2025-02,264816.00,2025,February
+Charles Schwab and Co. Inc.,2022-08,100000.00,2022,August
+Charles Schwab and Co. Inc.,2023-03,32000.00,2023,March
+Charles Schwab and Co. Inc.,2024-03,32000.00,2024,March
+Charles Schwab and Co. Inc.,2025-03,32000.00,2025,March
+Charles Schwab and Co. Inc.,2022-11,16000.00,2022,November
+Charles Schwab and Co. Inc.,2023-11,16000.00,2023,November
+EuroInformation,2022-12,50182.00,2022,December
+EuroInformation,2023-12,50000.00,2023,December
+EuroInformation,2024-12,50000.00,2024,December
+EuroInformation,2025-12,50000.00,2025,December
+EuroInformation,2026-12,50000.00,2026,December
+Charles Schwab and Co. Inc.,2023-01,89600.00,2023,January
+Charles Schwab and Co. Inc.,2024-03,89600.00,2024,March
+Charles Schwab and Co. Inc.,2025-03,44800.00,2025,March
+Applied Materials Ltd.,2023-03,153894.00,2023,March
+Applied Materials Ltd.,2024-02,112770.00,2024,February
+Applied Materials Ltd.,2025-02,112770.00,2025,February
+Applied Materials Ltd.,2026-02,112770.00,2026,February
+Applied Materials Ltd.,2027-02,112770.00,2027,February
+SICK,2023-06,38000.00,2023,June
+SICK,2024-06,11400.00,2024,June
+SICK,2025-06,11400.00,2025,June
+SICK,2026-06,11400.00,2026,June
+SICK,2027-06,11400.00,2027,June
+Juriba,2023-07,10632.83,2023,July
+Juriba,2024-07,5062.80,2024,July
+FINRA,2023-08,30608.00,2023,August
+FINRA,2024-08,6182.40,2024,August
+FINRA,2025-08,5997.00,2025,August
+FINRA,2026-08,5750.00,2026,August
+FINRA,2027-08,5564.00,2027,August
+Collaboration Factory,2023-10,47950.00,2023,October
+Collaboration Factory,2024-10,51800.00,2024,October
+Collaboration Factory,2025-10,44552.00,2025,October
+Collaboration Factory,2026-10,24752.00,2026,October
+Fidelity International,2023-10,152437.60,2023,October
+Fidelity International,2024-10,152437.60,2024,October
+Fidelity International,2025-10,457312.80,2025,October
+Microsoft (Azure),2024-01,144370.00,2024,January
+Microsoft (Azure),2025-01,56250.00,2025,January
+Microsoft (Azure),2026-01,65000.00,2026,January
+Microsoft (Azure),2027-01,65000.00,2027,January
+Microsoft (Azure),2028-01,65000.00,2028,January
+ING Bank,2024-04,51000.00,2024,April
+ING Bank,2025-04,51000.00,2025,April
+ING Bank,2026-04,51000.00,2026,April
+QPR,2024-10,2766.50,2024,October
+QPR,2025-01,5533.00,2025,January
+Fidelity Investments/FMR (US),2025-01,442376.00,2025,January
+ELUM Energy,2025-02,10702.50,2025,February
+ELUM Energy,2026-02,5137.20,2026,February
+ELUM Energy,2027-02,5137.20,2027,February
+ELUM Energy,2028-02,5137.20,2028,February
+ELUM Energy,2029-02,5137.20,2029,February
+Riverbed,2025-03,80990.40,2025,March
+Riverbed,2026-03,80990.40,2026,March
+Riverbed,2027-03,80990.40,2027,March
+Edward Jones,2025-04,17973.00,2025,April
+Edward Jones,2026-04,23964.00,2026,April
+Virtual Instruments dba Virtana,2025-04,9058.00,2025,April
+Virtual Instruments dba Virtana,2026-02,9058.00,2026,February
+Virtual Instruments dba Virtana,2027-02,9058.00,2027,February
+Virtual Instruments dba Virtana,2028-02,9058.00,2028,February
+Virtual Instruments dba Virtana,2029-02,9058.00,2029,February
+Statista GmbH,2025-05,12194.64,2025,May
+Statista GmbH,2026-05,3884.40,2026,May
+Rockwell Automation Inc.,2025-06,78707.70,2025,June
+Rockwell Automation Inc.,2025-11,39353.85,2025,November
+Rockwell Automation Inc.,2026-11,39353.85,2026,November
+Amazon (AWS),2025-06,47263.17,2025,June
+Amazon (AWS),2026-07,47263.17,2026,July
+Amazon (AWS),2027-07,47263.17,2027,July
+Morgan Stanley,2025-11,223185.35,2025,November
+Morgan Stanley,2026-11,223185.35,2026,November
+Morgan Stanley,2027-11,223185.35,2027,November
+Morgan Stanley,2028-11,223185.35,2028,November
+Morgan Stanley,2029-11,223185.35,2029,November
+Minitab LLC,2025-11,25890.73,2025,November
+Minitab LLC,2026-08,25890.73,2026,August
+Minitab LLC,2027-08,25890.73,2027,August
+Minitab LLC,2028-08,25890.73,2028,August
+Minitab LLC,2029-08,25890.73,2029,August
+EQS Group GmbH,2025-12,31724.90,2025,December
+EQS Group GmbH,2026-12,9267.38,2026,December
+EQS Group GmbH,2027-12,9267.38,2027,December
