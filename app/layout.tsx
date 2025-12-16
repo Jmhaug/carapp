@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ThemeProvider } from "next-themes";
-import { Sidebar } from "@/components/layout/sidebar";
+import { AppLayout } from "@/components/layout/app-layout";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 
@@ -36,12 +36,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="flex h-screen overflow-hidden">
-            <Sidebar />
-            <main className="flex-1 overflow-y-auto bg-background p-8">
-              {children}
-            </main>
-          </div>
+          <AppLayout>{children}</AppLayout>
           <Toaster />
         </ThemeProvider>
       </body>
